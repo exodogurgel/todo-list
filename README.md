@@ -3,11 +3,11 @@
 </h1>
 
 <p align="center" margin-top="25px" >
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Azanniel/nlw-return?color=blueviolet">
-
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Azanniel/nlw-return?color=blueviolet">
-
-  <img alt="GitHub" src="https://img.shields.io/github/license/Azanniel/nlw-return?color=blueviolet">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/exodogurgel/todo-list" />
+  
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/exodogurgel/todo-list" />
+  
+  <img alt="Github License" src="https://img.shields.io/github/license/exodogurgel/todo-list?color=blueviolet" />
 </p>
 
 ![image](.github/ToDoList.png)
