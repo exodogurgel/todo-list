@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  padding: 1.25rem;
+  gap: 1rem;
+
+  background: var(--gray-500);
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.container input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 1.1rem;
+  min-width: 1.1rem;
+  border: 2px solid var(--blue-200);
+  border-radius: 999px;
+
+  display: grid;
+  place-content: center;
+
+  cursor: pointer;
+}
+
+.container input[type="checkbox"]:hover {
+  filter: brightness(0.9);
+}
+
+.container input[type="checkbox"]::before {
+  content: "";
+  width: 0.45em;
+  height: 0.29em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background: var(--gray-100);
+}
+
+.container input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+.container input[type="checkbox"]:checked {
+  background: var(--purple-500);
+  border: 2px solid var(--purple-500);
+ }
+
+.container button {
+  height: fit-content;
+  cursor: pointer;
+  background: 0;
+  border: 0;
+  border-radius: 2px;
+  line-height: 0;
+  color: var(--gray-300);
+
+  transition: color 0.1s;
+
+  position: absolute;
+  right: 1.25rem;
+}
+
+.container button:hover{
+  color: var(--red-500);
+}
+
+.container p {
+  font-size: 0.875rem;
+}
+
+.buttonChecked svg {
+  color: var(--blue-200);
+  transition: color 0.1s;
+}
+
+.buttonChecked:hover svg {
+  color: var(--blue-500);
+}
+
+.isComplete {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}

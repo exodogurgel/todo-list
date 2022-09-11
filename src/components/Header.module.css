@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  padding: 4.5rem 0 5rem;
+  background: var(--gray-700);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container img {
+    width: 8rem;
+  }
+}
